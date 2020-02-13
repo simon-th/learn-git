@@ -59,7 +59,12 @@ public class Engine {
   // Return true if the board is full
   // Return false if not
   public boolean checkTie() {
-    return true;
+      for(String[] row : board) {
+          for(String symbol : row) {
+              if(symbol.equals(" ")) {return false;}
+          }
+      }
+      return true;
   }
 
   public int checkWinner() {
