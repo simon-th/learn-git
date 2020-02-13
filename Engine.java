@@ -13,7 +13,7 @@ public class Engine {
     }
     this.symbols = new String[2];
     this.symbols[0] = symbol1;
-    this.symbols[1] = symbol2;
+    this.symbols[1] = symbol2;//ba;ldkjpodgh
   }
 
   public int[] parseInput(String input) {
