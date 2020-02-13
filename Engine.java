@@ -52,7 +52,13 @@ public class Engine {
   // TODO: Complete this method
   // Player is either 0 or 1, row and column are valid and empty
   public void playerTurn(int player, int row, int col) {
-    return;
+    player=0;
+    if(row>=0&&row<BOARD_SIZE)
+      board[row]==null;
+    if(col>=0&&col<BOARD_SIZE)
+      board[col]==null;
+
+    
   }
 
   // TODO: Complete this method
