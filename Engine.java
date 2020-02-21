@@ -61,7 +61,7 @@ public class Engine {
   public boolean checkTie() {
     for (int row = 0; row < BOARD_SIZE; row++) {
       for (int col = 0; col < BOARD_SIZE; col++) {
-        if (!this.board[row][col].equals(" ")) {
+        if (this.board[row][col].equals(" ")) {
           return false;
         }
       }
