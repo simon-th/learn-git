@@ -15,6 +15,7 @@ public class Engine {
     this.symbols[0] = symbol1;
     this.symbols[1] = symbol2;
   }
+  System.out.println("Hello world");
 
   public int[] parseInput(String input) {
     if (input.length() != 2) {
