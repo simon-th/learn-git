@@ -4,6 +4,10 @@ public class Engine {
   private String[] symbols;
   private static final int BOARD_SIZE = 3;
 
+
+
+  int x=0;
+
   public Engine(String symbol1, String symbol2) {
     this.board = new String[BOARD_SIZE][BOARD_SIZE];
     for (int row = 0; row < BOARD_SIZE; row++) {
